@@ -60,23 +60,44 @@ body {
   background-color: #151515;
   color: #FFFFFF;
   font-family: "Space";
+  text-align: center;
 }
 
+.bio {
+  padding: 0 9px;
+}
+.bio nav {
+  margin-top: 30px;
+}
+.bio nav img {
+  padding: 0 10px;
+}
+.bio > img {
+  width: 60%;
+  margin-top: -100px;
+}
 .bio p:first-child {
   font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
 }
 .bio h1 {
   font-size: 40px;
   font-weight: bold;
+  margin-top: 40px;
 }
 .bio p:nth-of-type(2) {
   font-size: 16px;
+  margin-top: 30px;
 }
 
 .underline-name {
   border-bottom: 5px solid #4EE1A0;
 }
 
+.underline-contact {
+  margin-top: 20px;
+}
 .underline-contact span {
   border-bottom: 2px solid #4EE1A0;
 }/*# sourceMappingURL=style.css.map */

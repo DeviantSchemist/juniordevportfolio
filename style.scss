@@ -57,20 +57,40 @@ body {
   background-color: #151515;
   color: #FFFFFF;
 	font-family: "Space";
+	text-align: center;
 }
 
 .bio {
+	padding: 0 9px;
+	
+	nav {
+		margin-top: 30px;
+
+		img {
+			padding: 0 10px;
+		}
+	}
+
+	> img {
+		width: 60%;
+		margin-top: -100px;
+	}
+
 	p:first-child {
 		font-size: 24px;
+		font-weight: bold;
+		padding-top: 30px;
 	}
 
 	h1 {
 		font-size: 40px;
 		font-weight: bold;
+		margin-top: 40px;
 	}
 
 	p:nth-of-type(2) {
 		font-size: 16px;
+		margin-top: 30px;
 	}
 }
 
@@ -79,6 +99,8 @@ body {
 }
 
 .underline-contact {
+	margin-top: 20px;
+
 	span {
 		border-bottom: 2px solid #4EE1A0;
 	}
