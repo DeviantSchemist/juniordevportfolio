@@ -52,6 +52,11 @@ table {
 	src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf");
 }
 
+// utility class for section separation
+.white-line {
+	border-bottom: 2px solid #FFFFFF;
+}
+
 
 body {
   background-color: #151515;
@@ -100,8 +105,26 @@ body {
 
 .underline-contact {
 	margin-top: 20px;
+	margin-bottom: 40px;
 
 	span {
 		border-bottom: 2px solid #4EE1A0;
+	}
+}
+
+.experience {
+	h1 {
+		font-size: 32px;
+		margin-top: 30px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+	p:nth-of-type(6) {
+		margin-bottom: 40px;
 	}
 }
