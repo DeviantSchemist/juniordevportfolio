@@ -118,4 +118,170 @@ body {
 }
 .experience p:nth-of-type(6) {
   margin-bottom: 40px;
+}
+
+.projects {
+  margin-top: 40px;
+  text-align: left;
+  padding: 0 20px;
+}
+.projects h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.projects .project1 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project1 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project1 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project1 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project1 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project2 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project2 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project2 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project2 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project2 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project3 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project3 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project3 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project3 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project3 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project3 .techstack {
+  width: 60%;
+}
+.projects .project4 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project4 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project4 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project4 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project4 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project4 .techstack {
+  width: 60%;
+}
+.projects .project5 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project5 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project5 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project5 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project5 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project5 .techstack {
+  width: 60%;
+}
+.projects .project6 img {
+  width: 100%;
+  margin-top: 40px;
+}
+.projects .project6 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.projects .project6 .techstack {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.projects .project6 .links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.projects .project6 .links p {
+  border-bottom: 2px solid #4EE1A0;
+}
+.projects .project6 .techstack {
+  width: 60%;
 }/*# sourceMappingURL=style.css.map */

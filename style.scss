@@ -128,3 +128,82 @@ body {
 		margin-bottom: 40px;
 	}
 }
+
+@mixin project-style {
+	img {
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	h2 {
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	.techstack {
+		display: flex;
+		width: 25%;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	.links {
+		display: flex;
+		width: 70%;
+		justify-content: space-between;
+		margin-top: 20px;
+
+		p {
+			border-bottom: 2px solid #4EE1A0;
+		}
+	}
+}
+
+.projects {
+	margin-top: 40px;
+	text-align: left;
+	padding: 0 20px;
+
+	h1 {
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	.project1 {
+		@include project-style;
+	}
+
+	.project2 {
+		@include project-style;
+	}
+
+	.project3 {
+		@include project-style;
+		
+		.techstack {
+			width: 60%;
+		}
+	}
+
+	.project4 {
+		@include project-style;
+		.techstack {
+			width: 60%;
+		}
+	}
+
+	.project5 {
+		@include project-style;
+		.techstack {
+			width: 60%;
+		}
+	}
+
+	.project6 {
+		@include project-style;
+		.techstack {
+			width: 60%;
+		}
+	}
+}
