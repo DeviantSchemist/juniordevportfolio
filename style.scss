@@ -218,7 +218,7 @@ body {
 		font-weight: bold;
 	}
 
-	p {
+	> p {
 		margin-top: 20px;
 		margin-bottom: 40px;
 	}
@@ -254,10 +254,30 @@ body {
 
 		p {
 			align-self: flex-end;
+			margin-top: 20px;
+			margin-bottom: 80px;
 			span {
 				border-bottom: 2px solid #4EE1A0;
 				font-weight: bold;
 			}
+		}
+	}
+}
+
+footer {
+	background-color: rgb(37, 36, 36);
+	padding-top: 40px;  // use padding due to background color changing if we use margin
+	padding-bottom: 40px;
+
+	h1 {
+		font-size: 24px;
+		font-weight: bold;
+	}
+	nav {
+		margin-top: 20px;
+
+		img {
+			padding: 0 10px;
 		}
 	}
 }

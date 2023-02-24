@@ -297,7 +297,7 @@ body {
   font-size: 40px;
   font-weight: bold;
 }
-.contact p {
+.contact > p {
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -330,8 +330,26 @@ body {
 }
 .contact form p {
   align-self: flex-end;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 .contact form p span {
   border-bottom: 2px solid #4EE1A0;
   font-weight: bold;
+}
+
+footer {
+  background-color: rgb(37, 36, 36);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+footer nav {
+  margin-top: 20px;
+}
+footer nav img {
+  padding: 0 10px;
 }/*# sourceMappingURL=style.css.map */
