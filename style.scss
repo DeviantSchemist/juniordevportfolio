@@ -202,8 +202,62 @@ body {
 
 	.project6 {
 		@include project-style;
+		margin-bottom: 40px;
 		.techstack {
 			width: 60%;
+		}
+	}
+}
+
+.contact {
+	background-color: rgb(37, 36, 36);
+	padding: 40px 10px 0 10px;
+
+	h1 {
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	p {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.underline-input {
+		border-bottom: 2px solid #979797;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+
+		input {
+			background: transparent;
+			border: none;
+			margin: 0 0 10px 20px;
+		}
+
+		input:nth-of-type(2) {
+			margin-top: 20px;
+		}
+
+		textarea {
+			background: transparent;
+			border: none;
+			resize: none;
+			margin: 20px 0 10px 20px;
+		}
+
+		textarea::placeholder {
+			font-size: 16px;
+		}
+
+		p {
+			align-self: flex-end;
+			span {
+				border-bottom: 2px solid #4EE1A0;
+				font-weight: bold;
+			}
 		}
 	}
 }
