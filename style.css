@@ -94,16 +94,14 @@ body {
   font-size: 16px;
   margin-top: 30px;
 }
-
-.underline-name {
+.bio .underline-name {
   border-bottom: 5px solid #4EE1A0;
 }
-
-.underline-contact {
+.bio .underline-contact {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.underline-contact span {
+.bio .underline-contact span {
   border-bottom: 2px solid #4EE1A0;
 }
 
@@ -128,6 +126,14 @@ body {
 .projects h1 {
   font-size: 40px;
   font-weight: bold;
+  display: inline-block;
+}
+.projects .underline-contact {
+  display: inline-block;
+  margin-left: 60px;
+}
+.projects .underline-contact span {
+  border-bottom: 2px solid #4EE1A0;
 }
 .projects .project1 img {
   width: 100%;

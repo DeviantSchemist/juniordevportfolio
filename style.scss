@@ -97,18 +97,18 @@ body {
 		font-size: 16px;
 		margin-top: 30px;
 	}
-}
 
-.underline-name {
-	border-bottom: 5px solid #4EE1A0;
-}
+	.underline-name {
+		border-bottom: 5px solid #4EE1A0;
+	}
 
-.underline-contact {
-	margin-top: 20px;
-	margin-bottom: 40px;
-
-	span {
-		border-bottom: 2px solid #4EE1A0;
+	.underline-contact {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	
+		span {
+			border-bottom: 2px solid #4EE1A0;
+		}
 	}
 }
 
@@ -168,6 +168,15 @@ body {
 	h1 {
 		font-size: 40px;
 		font-weight: bold;
+		display: inline-block;
+	}
+
+	.underline-contact {
+		display: inline-block;
+		margin-left: 60px;
+		span {
+			border-bottom: 2px solid #4EE1A0;
+		}
 	}
 
 	.project1 {
