@@ -70,6 +70,9 @@ body {
 .bio {
   padding: 0 9px;
 }
+.bio .tablet-picture {
+  display: none;
+}
 .bio nav {
   margin-top: 30px;
 }
@@ -114,7 +117,7 @@ body {
   font-size: 16px;
   margin-top: 10px;
 }
-.experience p:nth-of-type(6) {
+.experience div:nth-of-type(6) {
   margin-bottom: 40px;
 }
 
@@ -358,4 +361,87 @@ footer nav {
 }
 footer nav img {
   padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bio {
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template: auto auto auto auto/auto auto;
+  }
+  .bio .mobile-picture {
+    display: none;
+  }
+  .bio p:first-child {
+    font-size: 32px;
+  }
+  .bio nav {
+    grid-row: 1/2;
+    grid-column: 2/2;
+    justify-self: end;
+  }
+  .bio .tablet-picture {
+    display: inline;
+    grid-row: 1/5;
+    grid-column: 2/-1;
+    z-index: -1;
+    width: 100%;
+  }
+  .bio h1 {
+    font-size: 72px;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    align-self: center;
+    width: 80%;
+  }
+  .bio p:nth-of-type(2) {
+    font-size: 18px;
+    align-self: end;
+  }
+  .bio .underline-contact {
+    font-size: 16px;
+    grid-row: 4/5;
+    align-self: end;
+  }
+  .experience {
+    display: grid;
+    grid-template: auto auto auto/repeat(2, 1fr);
+  }
+  .content > div:nth-child(4) {
+    display: none;
+  }
+  .projects {
+    display: grid;
+    grid-template: auto auto auto auto/repeat(2, 1fr);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .projects h1 {
+    font-size: 72px;
+  }
+  .projects h2 {
+    align-self: center;
+    justify-self: end;
+  }
+  .contact {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .contact h1 {
+    font-size: 72px;
+  }
+  footer {
+    display: grid;
+    grid-template: auto/repeat(2, 1fr);
+  }
+  footer h1 {
+    justify-self: start;
+    align-self: center;
+  }
+  footer nav {
+    justify-self: end;
+    align-self: center;
+  }
 }/*# sourceMappingURL=style.css.map */
