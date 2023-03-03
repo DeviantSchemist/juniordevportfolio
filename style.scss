@@ -71,6 +71,10 @@ body {
 	.tablet-picture {
 		display: none;
 	}
+
+	.desktop-picture {
+		display: none;
+	}
 	
 	nav {
 		margin-top: 30px;
@@ -231,9 +235,11 @@ body {
 		font-weight: bold;
 	}
 
-	> p {
-		margin-top: 20px;
-		margin-bottom: 40px;
+	> div {
+		p {
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
 	}
 
 	.underline-input {
@@ -298,7 +304,7 @@ footer {
 
 
 // tablet styles
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.bio {
 		text-align: left;
 		padding-right: 0;
@@ -307,6 +313,10 @@ footer {
 		grid-template: auto auto auto auto / auto auto;
 
 		.mobile-picture {
+			display: none;
+		}
+
+		.desktop-picture {
 			display: none;
 		}
 
@@ -378,6 +388,121 @@ footer {
 	.contact {
 		padding-left: 200px;
 		padding-right: 200px;
+
+		h1 {
+			font-size: 72px;
+		}
+	}
+
+	footer {
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+
+		h1 {
+			justify-self: start;
+			align-self: center;
+		}
+
+		nav {
+			justify-self: end;
+			align-self: center;
+		}
+	}
+}
+
+// desktop styles
+@media only screen and (min-width: 1024px) {
+	.bio {
+		text-align: left;
+		margin-bottom: 50px;
+		display: grid;
+		grid-template: auto auto auto auto / auto auto;
+
+		.mobile-picture {
+			display: none;
+		}
+	
+		.tablet-picture {
+			display: none;
+		}
+	
+		p:first-child {
+			font-size: 32px;
+		}
+
+		nav {
+			grid-row: 1 / 2;
+			grid-column: 2 / 2;
+			justify-self: end;
+		}
+
+		.desktop-picture {
+			display: inline;
+			grid-row: 1 / 5;
+			grid-column: 2 / -1;
+			z-index: -1;
+			width: 100%;
+		}
+
+		h1 {
+			font-size: 88px;
+			grid-row: 2 / 3;
+			grid-column: 1 / -1;
+			align-self: center;
+			width: 80%;
+		}
+
+		p:nth-of-type(2) {
+			font-size: 18px;
+			align-self: end;
+		}
+
+		.underline-contact {
+			font-size: 16px;
+			grid-row: 4 / 5;
+			align-self: end;
+		}
+	}
+
+	.experience {
+		display: grid;
+		grid-template: auto auto auto / repeat(2, 1fr);
+	}
+
+	.content {
+		// removes the 2nd white line on desktop view
+		> div:nth-child(4) {
+			display: none;
+		}
+	}
+
+	.projects {
+		display: grid;
+		grid-template: auto auto auto auto / repeat(2, 1fr);
+		column-gap: 30px;
+
+		h1 {
+			font-size: 72px;
+		}
+
+		h2 {
+			align-self: center;
+			justify-self: end;
+		}
+	}
+
+	.contact {
+		padding-left: 200px;
+		padding-right: 200px;
+		padding-top: 100px;
+
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+		column-gap: 400px;
+
+		> div {
+			text-align: left;
+		}
 
 		h1 {
 			font-size: 72px;
