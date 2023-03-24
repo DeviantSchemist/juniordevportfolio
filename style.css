@@ -111,6 +111,10 @@ body {
 .bio .underline-contact span {
   border-bottom: 2px solid #4EE1A0;
 }
+.bio .underline-contact span:hover {
+  color: #4EE1A0;
+  cursor: pointer;
+}
 
 .experience h1 {
   font-size: 32px;
@@ -352,9 +356,13 @@ body {
   margin-top: 20px;
   margin-bottom: 80px;
 }
-.contact form p span {
+.contact form p .underline-message {
   border-bottom: 2px solid #4EE1A0;
   font-weight: bold;
+}
+.contact form p .underline-message:hover {
+  color: #4EE1A0;
+  cursor: pointer;
 }
 
 footer {

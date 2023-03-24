@@ -117,6 +117,11 @@ body {
 	
 		span {
 			border-bottom: 2px solid #4EE1A0;
+
+			&:hover {
+				color: #4EE1A0;
+				cursor: pointer;
+			}
 		}
 	}
 }
@@ -284,9 +289,14 @@ body {
 			align-self: flex-end;
 			margin-top: 20px;
 			margin-bottom: 80px;
-			span {
+			.underline-message {
 				border-bottom: 2px solid #4EE1A0;
 				font-weight: bold;
+
+				&:hover {
+					color: #4EE1A0;
+					cursor: pointer;
+				}
 			}
 		}
 	}
