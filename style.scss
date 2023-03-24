@@ -54,7 +54,8 @@ table {
 
 // utility class for section separation
 .white-line {
-	border-bottom: 2px solid #FFFFFF;
+	border: 1px solid #FFFFFF;
+	margin: 0;
 }
 
 
@@ -373,7 +374,7 @@ footer {
 
 	.content {
 		// removes the 2nd white line on tablet view
-		> div:nth-child(4) {
+		> .white-line:nth-child(2) {
 			display: none;
 		}
 	}
@@ -499,7 +500,7 @@ footer {
 
 	.content {
 		// removes the 2nd white line on desktop view
-		> div:nth-child(4) {
+		> .white-line:nth-child(2) {
 			display: none;
 		}
 	}
@@ -530,9 +531,9 @@ footer {
 	}
 
 	.contact {
-		padding-left: 200px;
-		padding-right: 200px;
-		padding-top: 100px;
+		padding-left: 165px;
+		padding-right: 165px;
+		padding-top: 84px;
 
 		display: grid;
 		grid-template: auto / repeat(2, 1fr);
@@ -550,6 +551,9 @@ footer {
 	footer {
 		display: grid;
 		grid-template: auto / repeat(2, 1fr);
+		padding-left: 165px;
+		padding-right: 164.51px;
+		font-size: 32px;
 
 		h1 {
 			justify-self: start;

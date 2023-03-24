@@ -57,7 +57,8 @@ table {
   src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf");
 }
 .white-line {
-  border-bottom: 2px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin: 0;
 }
 
 body {
@@ -421,7 +422,7 @@ footer nav img {
     display: grid;
     grid-template: auto auto auto/repeat(2, 1fr);
   }
-  .content > div:nth-child(4) {
+  .content > .white-line:nth-child(2) {
     display: none;
   }
   .projects {
@@ -524,7 +525,7 @@ footer nav img {
     padding: 0 165px;
     margin: 73px 0 140px 0;
   }
-  .content > div:nth-child(4) {
+  .content > .white-line:nth-child(2) {
     display: none;
   }
   .projects {
@@ -549,9 +550,9 @@ footer nav img {
     justify-self: end;
   }
   .contact {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 84px;
     display: grid;
     grid-template: auto/repeat(2, 1fr);
     -moz-column-gap: 400px;
@@ -566,6 +567,9 @@ footer nav img {
   footer {
     display: grid;
     grid-template: auto/repeat(2, 1fr);
+    padding-left: 165px;
+    padding-right: 164.51px;
+    font-size: 32px;
   }
   footer h1 {
     justify-self: start;
