@@ -430,7 +430,7 @@ footer nav img {
     display: grid;
     grid-template: auto auto auto/repeat(2, 1fr);
   }
-  .content > .white-line:nth-child(2) {
+  .content > .white-line:nth-of-type(2) {
     display: none;
   }
   .projects {
@@ -533,7 +533,7 @@ footer nav img {
     padding: 0 165px;
     margin: 73px 0 140px 0;
   }
-  .content > .white-line:nth-child(2) {
+  .content > .white-line:nth-of-type(2) {
     display: none;
   }
   .projects {

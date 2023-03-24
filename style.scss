@@ -384,7 +384,7 @@ footer {
 
 	.content {
 		// removes the 2nd white line on tablet view
-		> .white-line:nth-child(2) {
+		> .white-line:nth-of-type(2) {
 			display: none;
 		}
 	}
@@ -510,7 +510,7 @@ footer {
 
 	.content {
 		// removes the 2nd white line on desktop view
-		> .white-line:nth-child(2) {
+		> .white-line:nth-of-type(2) {
 			display: none;
 		}
 	}
