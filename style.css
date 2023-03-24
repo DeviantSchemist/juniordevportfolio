@@ -557,6 +557,24 @@ footer nav img {
     align-self: center;
     justify-self: end;
   }
+  .projects .project1 .links {
+    display: none;
+  }
+  .projects .project2 .links {
+    display: none;
+  }
+  .projects .project3 .links {
+    display: none;
+  }
+  .projects .project4 .links {
+    display: none;
+  }
+  .projects .project5 .links {
+    display: none;
+  }
+  .projects .project6 .links {
+    display: none;
+  }
   .contact {
     padding-left: 165px;
     padding-right: 165px;
