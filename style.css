@@ -158,9 +158,9 @@ body {
 }
 .projects .project1 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project1 .links {
   display: flex;
@@ -182,9 +182,9 @@ body {
 }
 .projects .project2 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project2 .links {
   display: flex;
@@ -206,9 +206,9 @@ body {
 }
 .projects .project3 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project3 .links {
   display: flex;
@@ -233,9 +233,9 @@ body {
 }
 .projects .project4 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project4 .links {
   display: flex;
@@ -260,9 +260,9 @@ body {
 }
 .projects .project5 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project5 .links {
   display: flex;
@@ -290,9 +290,9 @@ body {
 }
 .projects .project6 .techstack {
   display: flex;
-  width: 25%;
-  justify-content: space-between;
+  gap: 18px;
   margin-top: 10px;
+  font-size: 18px;
 }
 .projects .project6 .links {
   display: flex;

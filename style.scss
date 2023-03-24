@@ -151,9 +151,9 @@ body {
 
 	.techstack {
 		display: flex;
-		width: 25%;
-		justify-content: space-between;
+		gap: 18px;
 		margin-top: 10px;
+		font-size: 18px;
 	}
 
 	.links {
