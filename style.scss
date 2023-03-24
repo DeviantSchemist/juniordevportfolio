@@ -417,6 +417,8 @@ footer {
 		margin-bottom: 50px;
 		display: grid;
 		grid-template: auto auto auto auto / auto auto;
+		padding-left: 165px;
+		padding-right: 156px;
 
 		.mobile-picture {
 			display: none;
@@ -432,8 +434,9 @@ footer {
 
 		nav {
 			grid-row: 1 / 2;
-			grid-column: 2 / 2;
+			grid-column: 2 / -1;
 			justify-self: end;
+			padding-right: 29.51px;
 		}
 
 		.desktop-picture {
@@ -441,7 +444,9 @@ footer {
 			grid-row: 1 / 5;
 			grid-column: 2 / -1;
 			z-index: -1;
-			width: 100%;
+			width: 445px;
+			height: 720px;
+			justify-self: end;
 		}
 
 		h1 {
@@ -449,12 +454,15 @@ footer {
 			grid-row: 2 / 3;
 			grid-column: 1 / -1;
 			align-self: center;
-			width: 80%;
+			width: 60vw;
 		}
+
+		br { display: none; }
 
 		p:nth-of-type(2) {
 			font-size: 18px;
 			align-self: end;
+			width: 445px;
 		}
 
 		.underline-contact {
@@ -466,7 +474,11 @@ footer {
 
 	.experience {
 		display: grid;
-		grid-template: auto auto auto / repeat(2, 1fr);
+		grid-template: auto auto / repeat(3, 1fr);
+		justify-content: center;
+		text-align: left;
+		padding: 0 165px;
+		margin: 73px 0 140px 0;
 	}
 
 	.content {
