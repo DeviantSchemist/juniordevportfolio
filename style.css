@@ -129,6 +129,12 @@ body {
   text-align: left;
   padding: 0 20px;
 }
+.projects .small-project-pic {
+  display: inline;
+}
+.projects .large-project-pic {
+  display: none;
+}
 .projects h1 {
   font-size: 40px;
   font-weight: bold;
@@ -424,6 +430,12 @@ footer nav img {
     -moz-column-gap: 30px;
          column-gap: 30px;
   }
+  .projects .small-project-pic {
+    display: inline;
+  }
+  .projects .large-project-pic {
+    display: none;
+  }
   .projects h1 {
     font-size: 72px;
   }
@@ -520,6 +532,14 @@ footer nav img {
     grid-template: auto auto auto auto/repeat(2, 1fr);
     -moz-column-gap: 30px;
          column-gap: 30px;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .projects .large-project-pic {
+    display: inline;
+  }
+  .projects .small-project-pic {
+    display: none;
   }
   .projects h1 {
     font-size: 72px;

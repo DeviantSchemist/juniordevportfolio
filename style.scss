@@ -173,6 +173,14 @@ body {
 	text-align: left;
 	padding: 0 20px;
 
+	.small-project-pic {
+		display: inline;
+	}
+
+	.large-project-pic {
+		display: none;
+	}
+
 	h1 {
 		font-size: 40px;
 		font-weight: bold;
@@ -375,6 +383,14 @@ footer {
 		grid-template: auto auto auto auto / repeat(2, 1fr);
 		column-gap: 30px;
 
+		.small-project-pic {
+			display: inline;
+		}
+
+		.large-project-pic {
+			display: none;
+		}
+
 		h1 {
 			font-size: 72px;
 		}
@@ -492,6 +508,16 @@ footer {
 		display: grid;
 		grid-template: auto auto auto auto / repeat(2, 1fr);
 		column-gap: 30px;
+		padding-left: 165px;
+		padding-right: 165px;
+
+		.large-project-pic {
+			display: inline;
+		}
+
+		.small-project-pic {
+			display: none;
+		}
 
 		h1 {
 			font-size: 72px;
