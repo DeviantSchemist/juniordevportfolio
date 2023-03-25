@@ -544,7 +544,7 @@ footer {
 			justify-self: end;
 		}
 
-		.project1 {
+		@mixin desktop-image-text {
 			position: relative;
 
 			.links { display: none; }
@@ -570,24 +570,29 @@ footer {
 			}
 		}
 
+
+		.project1 {
+			@include desktop-image-text;
+		}
+
 		.project2 {
-			.links { display: none; }
+			@include desktop-image-text;
 		}
 
 		.project3 {
-			.links { display: none; }
+			@include desktop-image-text;
 		}
 
 		.project4 {
-			.links { display: none; }
+			@include desktop-image-text;
 		}
 
 		.project5 {
-			.links { display: none; }
+			@include desktop-image-text;
 		}
 
 		.project6 {
-			.links { display: none; }
+			@include desktop-image-text;
 		}
 	}
 

@@ -582,20 +582,110 @@ footer nav img {
   .projects .project1:hover .links > *:first-child {
     margin-top: 0;
   }
+  .projects .project2 {
+    position: relative;
+  }
   .projects .project2 .links {
     display: none;
+  }
+  .projects .project2:hover .links {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 136px;
+  }
+  .projects .project2:hover .links > * {
+    margin-top: 60px;
+  }
+  .projects .project2:hover .links > *:first-child {
+    margin-top: 0;
+  }
+  .projects .project3 {
+    position: relative;
   }
   .projects .project3 .links {
     display: none;
   }
+  .projects .project3:hover .links {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 136px;
+  }
+  .projects .project3:hover .links > * {
+    margin-top: 60px;
+  }
+  .projects .project3:hover .links > *:first-child {
+    margin-top: 0;
+  }
+  .projects .project4 {
+    position: relative;
+  }
   .projects .project4 .links {
     display: none;
+  }
+  .projects .project4:hover .links {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 136px;
+  }
+  .projects .project4:hover .links > * {
+    margin-top: 60px;
+  }
+  .projects .project4:hover .links > *:first-child {
+    margin-top: 0;
+  }
+  .projects .project5 {
+    position: relative;
   }
   .projects .project5 .links {
     display: none;
   }
+  .projects .project5:hover .links {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 136px;
+  }
+  .projects .project5:hover .links > * {
+    margin-top: 60px;
+  }
+  .projects .project5:hover .links > *:first-child {
+    margin-top: 0;
+  }
+  .projects .project6 {
+    position: relative;
+  }
   .projects .project6 .links {
     display: none;
+  }
+  .projects .project6:hover .links {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 136px;
+  }
+  .projects .project6:hover .links > * {
+    margin-top: 60px;
+  }
+  .projects .project6:hover .links > *:first-child {
+    margin-top: 0;
   }
   .contact {
     padding-left: 165px;
