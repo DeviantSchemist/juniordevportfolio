@@ -184,7 +184,9 @@
           <form action="">
             <input type="text" placeholder="NAME" required>
             <span class="underline-input"></span>
-            <input type="email" placeholder="EMAIL" required>
+            <input type="email" placeholder="EMAIL"
+             pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+             required>
             <span class="underline-input"></span>
             <textarea name="message" id="message" placeholder="MESSAGE" cols="30" rows="10"></textarea>
             <span class="underline-input"></span>

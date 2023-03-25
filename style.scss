@@ -273,6 +273,10 @@ body {
 			background: transparent;
 			border: none;
 			margin: 0 0 10px 20px;
+
+			&:focus {
+				outline: none;
+			}
 		}
 
 		input:nth-of-type(2) {
@@ -284,6 +288,10 @@ body {
 			border: none;
 			resize: none;
 			margin: 20px 0 10px 20px;
+
+			&:focus {
+				outline: none;
+			}
 		}
 
 		textarea::placeholder {
