@@ -198,6 +198,11 @@ body {
 		margin-left: 60px;
 		span {
 			border-bottom: 2px solid #4EE1A0;
+
+			&:hover {
+				color: #4EE1A0;
+				cursor: pointer;
+			}
 		}
 	}
 

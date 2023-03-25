@@ -152,6 +152,10 @@ body {
 .projects .underline-contact span {
   border-bottom: 2px solid #4EE1A0;
 }
+.projects .underline-contact span:hover {
+  color: #4EE1A0;
+  cursor: pointer;
+}
 .projects .project1 img {
   width: 100%;
   margin-top: 40px;
