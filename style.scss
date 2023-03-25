@@ -524,6 +524,11 @@ footer {
 
 		.large-project-pic {
 			display: inline;
+
+			&:hover {
+				filter: brightness(50%);
+				-webkit-filter: brightness(50%);
+			}
 		}
 
 		.small-project-pic {
@@ -540,7 +545,29 @@ footer {
 		}
 
 		.project1 {
+			position: relative;
+
 			.links { display: none; }
+
+			&:hover {
+				.links {
+					position: absolute;
+					display: block;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					text-align: center;
+					width: 136px;
+	
+					& > * {
+						margin-top: 60px;
+					}
+	
+					& > *:first-child {
+						margin-top: 0;
+					}
+				}
+			}
 		}
 
 		.project2 {
