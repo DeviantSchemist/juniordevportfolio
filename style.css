@@ -702,6 +702,12 @@ footer nav img {
   .contact h1 {
     font-size: 72px;
   }
+  form input {
+    color: white;
+  }
+  form textarea {
+    color: white;
+  }
   footer {
     display: grid;
     grid-template: auto/repeat(2, 1fr);
