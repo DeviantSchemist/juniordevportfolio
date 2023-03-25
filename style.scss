@@ -612,20 +612,25 @@ footer {
 
 		> div {
 			text-align: left;
+
+			p {
+				width: 445px;
+				line-height: 28px;
+			}
 		}
 
 		h1 {
 			font-size: 72px;
 		}
-	}
 
-	form {
-		input {
-			color: white;
-		}
-
-		textarea {
-			color: white;
+		form {
+			input {
+				color: white;
+			}
+	
+			textarea {
+				color: white;
+			}
 		}
 	}
 

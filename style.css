@@ -703,13 +703,17 @@ footer nav img {
   .contact > div {
     text-align: left;
   }
+  .contact > div p {
+    width: 445px;
+    line-height: 28px;
+  }
   .contact h1 {
     font-size: 72px;
   }
-  form input {
+  .contact form input {
     color: white;
   }
-  form textarea {
+  .contact form textarea {
     color: white;
   }
   footer {
