@@ -262,7 +262,7 @@ body {
 	}
 
 	.underline-input {
-		border-bottom: 2px solid #979797;
+		border-bottom: 1px solid #979797;
 	}
 
 	form {
@@ -279,8 +279,22 @@ body {
 			}
 		}
 
+		input:first-child {
+			&:focus {
+				& + .underline-input {
+					border-bottom: 1px solid #4EE1A0;
+				}
+			}
+		}
+
 		input:nth-of-type(2) {
 			margin-top: 20px;
+
+			&:focus {
+				& + .underline-input {
+					border-bottom: 1px solid #4EE1A0;
+				}
+			}
 		}
 
 		textarea {
@@ -291,6 +305,10 @@ body {
 
 			&:focus {
 				outline: none;
+
+				& + .underline-input {
+					border-bottom: 1px solid #4EE1A0;
+				}
 			}
 		}
 
