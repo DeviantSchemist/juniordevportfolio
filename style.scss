@@ -282,7 +282,7 @@ body {
 		input:first-child {
 			&:focus {
 				& + .underline-input {
-					border-bottom: 1px solid #4EE1A0;
+					border-bottom: 2px solid #4EE1A0;
 				}
 			}
 		}
@@ -292,7 +292,7 @@ body {
 
 			&:focus {
 				& + .underline-input {
-					border-bottom: 1px solid #4EE1A0;
+					border-bottom: 2px solid #4EE1A0;
 				}
 			}
 		}
@@ -307,7 +307,7 @@ body {
 				outline: none;
 
 				& + .underline-input {
-					border-bottom: 1px solid #4EE1A0;
+					border-bottom: 2px solid #4EE1A0;
 				}
 			}
 		}
