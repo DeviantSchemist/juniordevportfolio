@@ -80,8 +80,13 @@ body {
 	nav {
 		margin-top: 30px;
 
-		img {
+		svg {
 			padding: 0 10px;
+
+			path:hover {
+				cursor: pointer;
+				fill: #4EE1A0;
+			}
 		}
 	}
 
@@ -347,8 +352,13 @@ footer {
 	nav {
 		margin-top: 20px;
 
-		img {
+		svg {
 			padding: 0 10px;
+
+			path:hover {
+				cursor: pointer;
+				fill: #4EE1A0;
+			}
 		}
 	}
 }

@@ -80,8 +80,12 @@ body {
 .bio nav {
   margin-top: 30px;
 }
-.bio nav img {
+.bio nav svg {
   padding: 0 10px;
+}
+.bio nav svg path:hover {
+  cursor: pointer;
+  fill: #4EE1A0;
 }
 .bio > img {
   width: 60%;
@@ -398,8 +402,12 @@ footer h1 {
 footer nav {
   margin-top: 20px;
 }
-footer nav img {
+footer nav svg {
   padding: 0 10px;
+}
+footer nav svg path:hover {
+  cursor: pointer;
+  fill: #4EE1A0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
