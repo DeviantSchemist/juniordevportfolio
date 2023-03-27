@@ -100,13 +100,14 @@ body {
 .bio p:nth-of-type(2) {
   font-size: 16px;
   margin-top: 30px;
+  line-height: 26px;
 }
 .bio .underline-name {
   border-bottom: 5px solid #4EE1A0;
 }
 .bio .underline-contact {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .bio .underline-contact span {
   border-bottom: 2px solid #4EE1A0;
@@ -132,7 +133,7 @@ body {
 .projects {
   margin-top: 40px;
   text-align: left;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .projects .small-project-pic {
   display: inline;
@@ -318,7 +319,7 @@ body {
 
 .contact {
   background-color: rgb(37, 36, 36);
-  padding: 40px 10px 0 10px;
+  padding: 60px 16px 0 16px;
 }
 .contact h1 {
   font-size: 40px;
@@ -327,6 +328,7 @@ body {
 .contact > div p {
   margin-top: 20px;
   margin-bottom: 40px;
+  line-height: 26px;
 }
 .contact .underline-input {
   border-bottom: 1px solid #979797;
@@ -440,7 +442,7 @@ footer nav img {
   }
   .bio p:nth-of-type(2) {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 28px;
   }
   .bio .underline-contact {
     font-size: 16px;
@@ -489,7 +491,7 @@ footer nav img {
   }
   .contact p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 28px;
   }
   footer {
     display: grid;
