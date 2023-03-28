@@ -14,9 +14,7 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,15 +32,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile View
+![Mobile View](./assets/images/mobileview.PNG)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+#### Tablet View
+![Tablet View](./assets/images/tabletview.PNG)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+#### Desktop View
+![Desktop View](./assets/images/desktopview.PNG)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -58,59 +56,111 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- SASS/SCSS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was my first major project using SASS. Utilizing that in conjuction with HTML greatly accustomed me to its syntax. As development continued, the code became more and more complex, with nesting CSS rules becoming the norm. I became comfortable working with a big code file as a result. The sheer amount of HTML and CSS that I had to write solidified my understanding of both languages.
 
-To see how you can add code snippets, see below:
+Working with Figma to get things such as the margin and padding correct helped me experience how it would be like in the workforce, when I would have to work with a designer's files and implement them.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I became accustomed to the mobile-first workflow, as well as using media queries for whatever screen size that I need to develop for.
+
+Minding accesibility when developing websites is something that is overlooked when building projects quickly and using a ton of frameworks. I did not use any of that for this project, and took my time to carefully structure my HTML content. I became much better at developing with semantic HTML.
+
+
+Below are several SCSS code snippets from this project
+
+
+This first snippet is a reusable style for each project in the projects section.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+@mixin project-style {
+	img {
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	h2 {
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	.techstack {
+		display: flex;
+		gap: 18px;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+
+	.links {
+		display: flex;
+		width: 70%;
+		justify-content: space-between;
+		margin-top: 20px;
+
+		p {
+			border-bottom: 2px solid #4EE1A0;
+		}
+	}
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+This snippet below is how the inputs change color when you focus on them.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+input {
+  background: transparent;
+  border: none;
+  margin: 0 0 10px 20px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+input:first-child {
+  &:focus {
+    & + .underline-input {
+      border-bottom: 2px solid #4EE1A0;
+    }
+  }
+}
+
+input:nth-of-type(2) {
+  margin-top: 20px;
+
+  &:focus {
+    & + .underline-input {
+      border-bottom: 2px solid #4EE1A0;
+    }
+  }
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This project is in continual development, and as such, this section will be updated as each feature is implemented and/or polished.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Implement input validation for contact form.
+- Fix mouse hover style on project section.
+- Increase clickable area of icons in the header and footer.
+
+Moving forward, for a project such as this that requires a lot of lines of code to manage, I will most likely be using a framework like ReactJS for development. I made this using plain HTML and CSS in order to practice those skills and increase my existing knowledge of the fundamentals.
+
+I will continue applying mobile-first development workflow as well as accesible HTML structuring.
+
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Reset](https://meyerweb.com/eric/tools/css/reset/) - I use this CSS reset file for almost every project I work on. There are other ones that you can use, but this is my default. Highly recommended.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [W3 Schools](https://www.w3schools.com/) - One could call this the web development bible. Most likely it will be the first site that pops up anytime you have an inquiry about HTML, CSS, and Javascript.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Github - [DeviantSchemist](https://github.com/DeviantSchemist)
+- Frontend Mentor - [@DeviantSchemist](https://www.frontendmentor.io/profile/yourusername)
