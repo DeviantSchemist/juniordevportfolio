@@ -64,6 +64,8 @@ Users should be able to:
 
 This was my first major project using SASS. Utilizing that in conjuction with HTML greatly accustomed me to its syntax. As development continued, the code became more and more complex, with nesting CSS rules becoming the norm. I became comfortable working with a big code file as a result. The sheer amount of HTML and CSS that I had to write solidified my understanding of both languages.
 
+Using both CSS Grid and Flexbox for styling gave me much more experience with these two concepts. I used both in areas where it was appropriate for me to achieve the desired layout.
+
 Working with Figma to get things such as the margin and padding correct helped me experience how it would be like in the workforce, when I would have to work with a designer's files and implement them.
 
 I became accustomed to the mobile-first workflow, as well as using media queries for whatever screen size that I need to develop for.
